@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4 LMS</title>
+</head>
+<body>
+    <script>
+        let height= +prompt("Nhập chiều cao của bạn theo mét");
+        let weight = +prompt("Nhập cân nặng của bạn");
+        let bmi = weight/(height*height);
+        if (bmi<18.5) {
+            console.log("Bạn ở mức gầy");            
+        }
+        else if(bmi<24.9){
+            console.log("Bạn ở mức bình thường");
+        }else if(bmi<29.9){
+            console.log("Bạn ở mức tiền béo phì");
+        }else if(bmi<34.9){
+            console.log("Bạn ở mức béo phì độ I");
+        }else if(bmi<39.9){
+            console.log("Bạn ở mức béo phì độ II");
+        }else{
+            console.log("Bạn ở mức béo phì độ III");
+        }
+    </script>
+</body>
+</html>

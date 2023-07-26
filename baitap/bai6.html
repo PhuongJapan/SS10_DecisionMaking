@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6</title>
+</head>
+<body>
+    <script>
+        let a = Number(prompt("Nhập cạnh 1"));
+        let b = Number(prompt("Nhập cạnh 2"));
+        let c = Number(prompt("Nhập cạnh 3"));
+
+        if(a<b+c && b<c+a && c<a+b) {
+           if(a==b&&b==c){
+            console.log("Đây là 1 tam giác đều");}
+           else if(a==b||a==b||b==c){
+            if (a*a+b*b==c*c||b*b+c*c==a*a||a*a+c*c==b*b) {
+               console.log("Đây là 1 tam giác vuông cân");
+            }
+            else{
+                console.log("Đây là tam giác cân");
+            }}
+        　　else if(a*a+b*b==c*c||b*b+c*c==a*a||a*a+c*c==b*b){
+            console.log("Đây là tam giác vuông");
+            }
+            else{
+                console.log("Đây là tam giác thường");
+            }}       
+       
+        else{
+            console.log("Đây không phải là tam giác");
+        }
+      
+       
+       
+
+    </script>
+</body>
+</html>

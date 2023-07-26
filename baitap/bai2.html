@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 2</title>
+</head>
+<body>
+    <script>
+        let number1 = Number(prompt("Nhập 1 số"));
+        let number2 = Number(prompt("Nhập 1 số"));
+        let number3 = Number(prompt("Nhập 1 số"));
+        let max = number1;
+        let min= number1;
+        if (max<number2) {
+            max=number2;  
+        } 
+        else if(max<number3){
+            max=number3;
+        }       
+        else{max=number1;            
+        }
+
+        if (min>number2) {
+            min=number2;  
+        } 
+        else if(min>number3){
+            min=number3;
+        }       
+        else{min=number1;            
+        }
+
+        console.log("Số lớn nhất là: ", max);
+        console.log("Số nhỏ nhất là: ", min);
+        
+    </script>
+</body>
+</html>

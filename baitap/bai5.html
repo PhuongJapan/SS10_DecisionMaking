@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 5</title>
+</head>
+<body>
+    <script>
+        let scoreHtml = Number(prompt("Nhập điểm HTML"));
+        let scoreCss = Number(prompt("Nhập điểm CSS"));
+        let scoreJavascript = Number(prompt("Nhập điểm Javascript"));
+        let averageScore = (scoreHtml+scoreCss+scoreJavascript)/3;
+        console.log("Điểm số trung bình 3 môn của bạn là: ", averageScore);
+
+       if(averageScore<5) {
+            console.log("Kết quả xếp loại: Yếu");            
+        }
+        else if(averageScore<6){
+            console.log("Kết quả xếp loại: Kém");  
+        }
+        else if(averageScore<7){
+            console.log("Kết quả xếp loại: Trung bình");  
+        }
+        else if(averageScore<8){
+            console.log("Kết quả xếp loại: Khá");  
+        }
+        else if(averageScore<9){
+            console.log("Kết quả xếp loại: Giỏi");  
+        }
+        else{
+            console.log("Kết quả xếp loại: Xuất sắc");  
+        }
+        
+
+    </script>
+</body>
+</html>
